@@ -1,0 +1,68 @@
+body{
+    background: cornflowerblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{
+    background: white;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 10px royalblue;
+}
+
+.central p, h1{
+
+    font-weight: bold;
+    font-size: 22px;
+    color: royalblue;
+}
+.central h1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.central input{
+
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: lightgray;
+}
+
+.central input:focus{
+
+    border: 2px solid cornflowerblue;
+    background: lightblue;
+}
+
+.central button{
+
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background: royalblue;
+    color: white;
+}
+
+
+.central button:hover{
+
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
